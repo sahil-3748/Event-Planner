@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorwhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <EditText
+        android:id="@+id/unique_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:background="@drawable/custom_border"
+        android:padding="10dp"
+        android:inputType="text"
+        android:drawableTint="@color/colorpink"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:layout_marginTop="115dp"
+        android:hint="@string/unique"
+        android:layout_marginHorizontal="15dp"
+        />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:drawableTint="@color/colorpink"
+        android:background="@drawable/custom_border"
+        android:drawablePadding="10dp"
+        android:password="true"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:drawableRight="@drawable/ic_baseline_visibility_24"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:layout_marginTop="15dp"
+        android:hint="@string/password"
+        android:layout_marginHorizontal="15dp" />
+
+    <TextView
+        android:id="@+id/forget_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textColor="@color/colorblue"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="7dp"
+        android:textAlignment="viewEnd"
+        android:text="@string/forget"
+        />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/colorwhite"
+        android:text="@string/loginbutton"
+        android:layout_marginTop="15dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/logtosign_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logtosigntext"
+        android:textAlignment="center"
+        android:textColor="@color/colorblue"
+        android:textSize="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="15dp"
+        />
+
+</LinearLayout>

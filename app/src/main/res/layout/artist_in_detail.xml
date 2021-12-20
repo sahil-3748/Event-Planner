@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorwhite"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:divider="@color/colordarksilver"
+        android:showDividers="end">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="185dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/artistimage"
+                    android:layout_width="165dp"
+                    android:layout_height="150dp"
+                    android:layout_marginVertical="15dp"
+                    android:layout_marginHorizontal="10dp"/>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="140dp"
+                    app:cardCornerRadius="15dp"
+                    android:background="@color/colorwhite">
+
+                    <ImageView
+                        android:id="@+id/artistsaved"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginHorizontal="2.5dp"
+                        android:layout_marginVertical="2.5dp"
+                        android:src="@drawable/ic_baseline_bookmark_border_24"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/artistname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Name"
+                    android:textColor="@color/colorblack"
+                    android:textAlignment="viewStart"/>
+
+                <TextView
+                    android:id="@+id/artistarea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="AreaName"
+                    android:textColor="@color/colorblack"
+                    android:textAlignment="viewStart"/>
+
+                <TextView
+                    android:id="@+id/artistrating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:drawableLeft="@drawable/ic_baseline_star_24"
+                    android:drawableTint="@color/colorpink"
+                    android:drawablePadding="5dp"
+                    android:textSize="17dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="5"
+                    android:textColor="@color/colorblack"
+                    android:textAlignment="viewStart"/>
+
+                <TextView
+                    android:id="@+id/artistcharges"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:text="Artist Charges"
+                    android:textColor="@color/colorblack"
+                    android:textAlignment="viewStart"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

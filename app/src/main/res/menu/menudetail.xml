@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:iconTint="@color/colorpink"/>
+
+    <item
+        android:id="@+id/projects"
+        android:title="Projects"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:iconTint="@color/colorpink"/>
+
+    <item
+        android:id="@+id/review"
+        android:title="Reviews"
+        android:iconTint="@color/colorpink"
+        android:icon="@drawable/ic_baseline_rate_review_24"/>
+
+</menu>

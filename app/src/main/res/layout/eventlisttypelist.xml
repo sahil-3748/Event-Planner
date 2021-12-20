@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <FrameLayout
+        android:id="@+id/mainframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bgimgforeve"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"/>
+
+    <TextView
+        android:id="@+id/nameforeve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colordarksilver"
+        android:text="Event name"
+        android:textAlignment="viewStart"
+        android:layout_marginVertical="45dp"
+        android:textSize="19dp"
+        android:layout_marginLeft="15dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="218dp"
+        app:cardCornerRadius="80dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="188dp">
+
+        <ImageView
+            android:id="@+id/mainforeve"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+</LinearLayout>
